@@ -3,7 +3,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
+    "outDir": "./dist/eshop-client-ngweb",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,

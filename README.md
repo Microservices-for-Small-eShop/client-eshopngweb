@@ -2,6 +2,28 @@
 
 A Simple Angular 14+ Client Application for Small eShop. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
 
+## Commands Executed
+
+```angularcli
+npm -v
+node -v
+ng v
+
+ng new sports-shop-client-ngweb
+
+ng generate m products --dry-run
+ng generate m products
+
+ng generate m product --dry-run
+ng generate m product
+
+ng g c product
+
+ng g c products 
+
+ng g s products/products --dry-run
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

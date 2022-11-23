@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'eshop-client-ngweb';
+  title = 'eShop Application';
+
+  processEnv = globalThis.process?.env;
+
+  angularEnv = environment;
+  
 }

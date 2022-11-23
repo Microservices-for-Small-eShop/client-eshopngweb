@@ -72,7 +72,8 @@
               "browserTarget": "eshop-client-ngweb:build:production"
             },
             "development": {
-              "browserTarget": "eshop-client-ngweb:build:development"
+              "browserTarget": "eshop-client-ngweb:build:development",
+              "port": 4005
             }
           },
           "defaultConfiguration": "development"
@@ -103,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
