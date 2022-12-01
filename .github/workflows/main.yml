@@ -54,3 +54,8 @@ jobs:
       - name: Test
         run: |
           npm run test:ci
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v3
+        with:
+          name: eShop-Client-NgWeb
+          path: ./dist
